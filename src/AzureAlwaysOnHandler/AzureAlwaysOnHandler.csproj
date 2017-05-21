@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
+    <Description>Azure AlwaysOn Handler</Description>
+    <Authors>Yury Shcherbakov</Authors>
+    <RepositoryUrl>https://github.com/mexahuk61/azure-alwayson</RepositoryUrl>
+    <PackageTags>azure alwayson</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAlwaysOnHandler", "src\AzureAlwaysOnHandler\AzureAlwaysOnHandler.csproj", "{C0A438F3-A2DF-4895-A941-2F452F1C0297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52593552-5676-4D8C-8E16-7E6DA040A6CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A6F51883-848C-4533-A985-EC15F6B5EF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAlwaysOnHandler.IntegrationTests", "test\AzureAlwaysOnHandler.IntegrationTests\AzureAlwaysOnHandler.IntegrationTests.csproj", "{A97CD6BD-A7FB-464A-A824-D2A9370143E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A438F3-A2DF-4895-A941-2F452F1C0297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A438F3-A2DF-4895-A941-2F452F1C0297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A438F3-A2DF-4895-A941-2F452F1C0297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A438F3-A2DF-4895-A941-2F452F1C0297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97CD6BD-A7FB-464A-A824-D2A9370143E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97CD6BD-A7FB-464A-A824-D2A9370143E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97CD6BD-A7FB-464A-A824-D2A9370143E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97CD6BD-A7FB-464A-A824-D2A9370143E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0A438F3-A2DF-4895-A941-2F452F1C0297} = {52593552-5676-4D8C-8E16-7E6DA040A6CA}
+		{A97CD6BD-A7FB-464A-A824-D2A9370143E3} = {A6F51883-848C-4533-A985-EC15F6B5EF22}
+	EndGlobalSection
+EndGlobal
